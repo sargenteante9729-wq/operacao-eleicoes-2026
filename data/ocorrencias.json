@@ -331,5 +331,14 @@
     "tipo": "Boca de urna",
     "gravidade": "Baixa",
     "relato": "Ocorrência registrada: Boca de urna — gravidade Baixa."
+  },
+  {
+    "id": "f47dbe160939",
+    "timestamp": "08/10/2026 19:50:56",
+    "zona": "34",
+    "local": "Escola Estadual Dr. José Freire Da Costa Pinto",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   }
 ]
