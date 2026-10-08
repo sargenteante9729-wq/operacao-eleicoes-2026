@@ -340,5 +340,14 @@
     "tipo": "APH",
     "gravidade": "Moderada",
     "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "03d45b6503b6",
+    "timestamp": "08/10/2026 19:59:20",
+    "zona": "LOGISTICA",
+    "local": "Base",
+    "tipo": "Outro",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: Outro — gravidade Baixa."
   }
 ]
