@@ -1,326 +1,335 @@
 [
   {
-    "id": "ced37f7e692a",
-    "timestamp": "2026-10-04 07:25:02",
+    "id": "61c8bfe1d915",
+    "timestamp": "04/10/2026 07:25:03",
     "zona": "16",
     "local": "Grupo Escolar General Calazans",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "06433b59d24b",
-    "timestamp": "2026-10-04 09:29:35",
+    "id": "999cf32b919f",
+    "timestamp": "04/10/2026 09:29:36",
     "zona": "34",
     "local": "Centro de Exc. Prof. Profa Neuzice Barreto",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "da4357af6596",
-    "timestamp": "2026-10-04 09:45:29",
+    "id": "6b796902ea18",
+    "timestamp": "04/10/2026 09:45:29",
     "zona": "16",
     "local": "Escola de 1° Grau Prof. Fernando Azevedo",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "a089c32ed216",
-    "timestamp": "2026-10-04 10:42:58",
+    "id": "532b4c86a752",
+    "timestamp": "04/10/2026 10:42:59",
     "zona": "16",
     "local": "Feira Nova",
     "tipo": "Boca de urna",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Boca de urna — gravidade Baixa."
   },
   {
-    "id": "aca81b226335",
-    "timestamp": "2026-10-04 10:45:24",
+    "id": "b854efa01d30",
+    "timestamp": "04/10/2026 10:45:25",
     "zona": "16",
     "local": "Escola Municipal José Alves de França",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "f861dd39d86c",
-    "timestamp": "2026-10-04 11:02:23",
+    "id": "4558b033a11a",
+    "timestamp": "04/10/2026 11:02:23",
     "zona": "34",
     "local": "Instituto Federal de Sergipe - Campus Socorro",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "5df5451708e7",
-    "timestamp": "2026-10-04 11:20:57",
+    "id": "fbcd78b3a0b7",
+    "timestamp": "04/10/2026 11:20:58",
     "zona": "16",
     "local": "Escola Municipal Petronilho Menezes Cotia",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "4144bcb86db2",
-    "timestamp": "2026-10-04 11:26:06",
+    "id": "7b4b49334c8c",
+    "timestamp": "04/10/2026 11:26:07",
     "zona": "16",
     "local": "Escola Municipal Petronilho Menezes Cotia",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "53ba075efdd5",
-    "timestamp": "2026-10-04 11:26:58",
+    "id": "18496d8eb221",
+    "timestamp": "04/10/2026 11:26:58",
     "zona": "04",
     "local": "Grupo Escolar Jessé Fontes",
     "tipo": "APH",
     "gravidade": "Grave",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Grave."
   },
   {
-    "id": "f76254a5d139",
-    "timestamp": "2026-10-04 11:36:08",
+    "id": "a2615e66f3c8",
+    "timestamp": "04/10/2026 11:36:08",
     "zona": "16",
     "local": "Escola Municipal Petronilho Menezes Cotia",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "90d62cff057a",
-    "timestamp": "2026-10-04 11:45:31",
+    "id": "b33deacd9c95",
+    "timestamp": "04/10/2026 11:45:32",
     "zona": "04",
     "local": "Grupo Escolar Manoel Bomfim",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "ea449656fe1a",
-    "timestamp": "2026-10-04 12:27:41",
+    "id": "f17ba31835d1",
+    "timestamp": "04/10/2026 12:27:42",
     "zona": "03",
     "local": "Escola Estadual Manoel Alcino Nascimento",
     "tipo": "Outro",
     "gravidade": "Grave",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Outro — gravidade Grave."
   },
   {
-    "id": "641b9442e918",
-    "timestamp": "2026-10-04 12:36:02",
+    "id": "69caca552bd3",
+    "timestamp": "04/10/2026 12:36:03",
     "zona": "34",
     "local": "Centro de Excelência Profissionalizante Profa Neuzice Barreto",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "8b88147a5dec",
-    "timestamp": "2026-10-04 12:37:29",
+    "id": "37872be1fab3",
+    "timestamp": "04/10/2026 12:37:29",
     "zona": "03",
     "local": "Escola Municipal Eurico de Souza Filho",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "733da3740894",
-    "timestamp": "2026-10-04 12:43:04",
+    "id": "c9e055b3e9ec",
+    "timestamp": "04/10/2026 12:43:04",
     "zona": "03",
     "local": "Graccho Cardoso",
     "tipo": "Outro",
     "gravidade": "Grave",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Outro — gravidade Grave."
   },
   {
-    "id": "37ce11cd763c",
-    "timestamp": "2026-10-04 12:57:48",
+    "id": "8dd74afc2512",
+    "timestamp": "04/10/2026 12:57:49",
     "zona": "08",
     "local": "Itabi",
     "tipo": "Outro",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Outro — gravidade Baixa."
   },
   {
-    "id": "d011c6988325",
-    "timestamp": "2026-10-04 13:01:13",
+    "id": "d3b20429695c",
+    "timestamp": "04/10/2026 13:01:13",
     "zona": "03",
     "local": "Graccho Cardoso",
     "tipo": "Outro",
     "gravidade": "Grave",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Outro — gravidade Grave."
   },
   {
-    "id": "7d21583a7289",
-    "timestamp": "2026-10-04 13:56:45",
+    "id": "fa86ead72ef1",
+    "timestamp": "04/10/2026 13:56:46",
     "zona": "16",
     "local": "Sede",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "98c6723c5bfa",
-    "timestamp": "2026-10-04 13:56:53",
+    "id": "137af27341df",
+    "timestamp": "04/10/2026 13:56:54",
     "zona": "34",
     "local": "Instituto Federal de Sergipe - Campus Socorro",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "2d7bb990276d",
-    "timestamp": "2026-10-04 14:21:50",
+    "id": "d57fbfdc7822",
+    "timestamp": "04/10/2026 14:21:51",
     "zona": "34",
     "local": "Colégio Estadual Presidente Juscelino Kubistchek",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "d23ac8a50dd4",
-    "timestamp": "2026-10-04 14:29:20",
+    "id": "0e2baedda2bf",
+    "timestamp": "04/10/2026 14:29:21",
     "zona": "08",
     "local": "Escola Estadual José Augusto da Rocha Lima",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "4dfe68f5b641",
-    "timestamp": "2026-10-04 14:36:36",
+    "id": "d3b776364294",
+    "timestamp": "04/10/2026 14:36:36",
     "zona": "34",
     "local": "Colégio Estadual Presidente Juscelino Kubistchek",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "e4497c2958f2",
-    "timestamp": "2026-10-04 15:28:08",
+    "id": "6ce1cab1771a",
+    "timestamp": "04/10/2026 15:28:09",
     "zona": "34",
     "local": "Colégio Estadual Presidente Juscelino Kubistchek",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "34d2ce96caf7",
-    "timestamp": "2026-10-04 15:47:47",
+    "id": "5f1cddb6b1ba",
+    "timestamp": "04/10/2026 15:47:47",
     "zona": "34",
     "local": "Centro de Excelência Profissionalizante Profa Neuzice Barreto",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "e7735b48755e",
-    "timestamp": "2026-10-04 16:04:58",
+    "id": "86d24dd362ab",
+    "timestamp": "04/10/2026 16:04:58",
     "zona": "08",
     "local": "Escola Estadual Maria das Graças Menezes Moura",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "bea0b17a5b01",
-    "timestamp": "2026-10-04 16:08:25",
+    "id": "8e02f9e0e4e7",
+    "timestamp": "04/10/2026 16:08:25",
     "zona": "34",
     "local": "Escola Estadual Prof. Diomedes Santos Da Silva",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "1a08e2cd093c",
-    "timestamp": "2026-10-04 16:10:09",
+    "id": "2a3248705c86",
+    "timestamp": "04/10/2026 16:10:09",
     "zona": "34",
     "local": "Colégio Estadual Prof. José Barreto Fontes",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "5099b6dc14dc",
-    "timestamp": "2026-10-04 16:27:32",
+    "id": "e4fb7eeee107",
+    "timestamp": "04/10/2026 16:27:33",
     "zona": "04",
     "local": "ESCOLA MUNICIPAL DR. LUIZ GARCIA",
     "tipo": "Desobediência",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Desobediência — gravidade Baixa."
   },
   {
-    "id": "595f936cb018",
-    "timestamp": "2026-10-04 16:28:37",
+    "id": "0e5c855883d9",
+    "timestamp": "04/10/2026 16:28:37",
     "zona": "34",
     "local": "Escola Estadual Dr. José Freire Da Costa Pinto",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "6e2cc64d230a",
-    "timestamp": "2026-10-04 16:48:06",
+    "id": "3273a78c2573",
+    "timestamp": "04/10/2026 16:48:06",
     "zona": "04",
     "local": "JOAO SIMOES FREIRE, ESCOLA MUNICIPAL",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "ac43104c3887",
-    "timestamp": "2026-10-04 16:50:31",
+    "id": "7de4e5ddfefe",
+    "timestamp": "04/10/2026 16:50:32",
     "zona": "08",
     "local": "Itabi",
     "tipo": "APH",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   },
   {
-    "id": "0a7f5fb09279",
-    "timestamp": "2026-10-04 17:18:16",
+    "id": "a9908cb93165",
+    "timestamp": "04/10/2026 17:18:16",
     "zona": "08",
     "local": "Itabi",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "d79a56d2b5d4",
-    "timestamp": "2026-10-04 17:26:40",
+    "id": "076e1f5d3f9c",
+    "timestamp": "04/10/2026 17:26:40",
     "zona": "34",
     "local": "Escola Estadual Jorge Amado",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
   },
   {
-    "id": "43eb69815f64",
-    "timestamp": "2026-10-04 17:33:56",
+    "id": "d29f7059d9c0",
+    "timestamp": "04/10/2026 17:33:56",
     "zona": "34",
     "local": "Colégio Estadual Prof. José Barreto Fontes",
     "tipo": "Tumulto",
     "gravidade": "Moderada",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Moderada."
   },
   {
-    "id": "8493e9db4dd1",
-    "timestamp": "2026-10-04 18:24:47",
+    "id": "4c8815ba50ec",
+    "timestamp": "04/10/2026 18:24:48",
     "zona": "34",
     "local": "Nossa Senhora do Socorro",
     "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "3f9e01b5709e",
-    "timestamp": "2026-10-04 18:25:38",
+    "id": "4a83adb38b0f",
+    "timestamp": "04/10/2026 18:25:38",
     "zona": "34",
     "local": "Escola Municipal Diva Maria Correia",
     "tipo": "Tumulto",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada. O relato operacional completo permanece na fonte de dados original."
+    "relato": "Ocorrência registrada: Tumulto — gravidade Baixa."
+  },
+  {
+    "id": "267c10fcdd59",
+    "timestamp": "08/10/2026 17:44:27",
+    "zona": "03",
+    "local": "Aquidabã",
+    "tipo": "Boca de urna",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: Boca de urna — gravidade Baixa."
   }
 ]
