@@ -349,5 +349,14 @@
     "tipo": "Outro",
     "gravidade": "Baixa",
     "relato": "Ocorrência registrada: Outro — gravidade Baixa."
+  },
+  {
+    "id": "30344973ab16",
+    "timestamp": "08/10/2026 20:27:03",
+    "zona": "03",
+    "local": "EMDAGRO",
+    "tipo": "Desobediência",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: Desobediência — gravidade Moderada."
   }
 ]
