@@ -21,12 +21,9 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Instalar dependencias
-        run: pip install requests
-
       - name: Sincronizar Google Sheets
         env:
-          SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQvv2q2ETORjow_sQtsBLj9bajhr46-rCi2c_aNo6oN2EcV55wlslY0Pl9jJbuVlheqheetAcN5eo4X/pub?gid=1037942495&single=true&output=csv"
+          SHEET_GVIZ_URL: "https://docs.google.com/spreadsheets/d/1zMOKWqTekm9HLR_3oM9-cluo8BUJ7ODdWMHjFHsfrMo/gviz/tq?tqx=out:csv&gid=1037942495"
         run: python scripts/sync_sheet.py
 
       - name: Publicar atualizacao
