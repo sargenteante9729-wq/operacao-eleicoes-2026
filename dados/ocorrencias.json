@@ -398,5 +398,15 @@
     "tipo": "Desobediência",
     "gravidade": "Moderada",
     "relato": "Ocorrência registrada: Desobediência — gravidade Moderada."
+  },
+  {
+    "id": "16254cbabf1a",
+    "timestamp": "08/10/2026 22:28:46",
+    "responsavel": "CAP NASCIMENTO",
+    "zona": "03",
+    "local": "Cedro de São João",
+    "tipo": "Desobediência",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: Desobediência — gravidade Moderada."
   }
 ]
