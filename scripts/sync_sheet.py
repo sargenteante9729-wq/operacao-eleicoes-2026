@@ -9,11 +9,10 @@ from pathlib import Path
 
 BASE_URL = os.environ["SHEET_GVIZ_URL"]
 
-# Evita que o Google entregue uma versão antiga em cache
 separator = "&" if "?" in BASE_URL else "?"
 URL = f"{BASE_URL}{separator}_={int(time.time())}"
 
-DEST = Path("data/ocorrencias.json")
+DEST = Path("dados/ocorrencias.json")
 
 request = urllib.request.Request(
     URL,
@@ -52,15 +51,17 @@ def public_summary(tipo, gravidade):
 output = []
 
 for row in rows:
-    timestamp = clean(row.get("Timestamp"))
-    zona = normalize_zone(row.get("Zona"))
-    local = clean(row.get("Local"))
-    tipo = clean(row.get("Tipo"))
-    gravidade = clean(row.get("Gravidade"))
-    relato = clean(row.get("Relato"))
+    timestamp = clean(row.get("Timestamp") or row.get("carimbo de data/hora"))
+    responsavel = clean(row.get("Responsável pelo Registro") or row.get("responsavel"))
+    zona = normalize_zone(row.get("Zona") or row.get("zona"))
+    local = clean(row.get("Local") or row.get("local"))
+    tipo = clean(row.get("Tipo") or row.get("tipo"))
+    gravidade = clean(row.get("Gravidade") or row.get("gravidade"))
+    relato = clean(row.get("Relato") or row.get("relato"))
 
     key = "|".join([
         timestamp,
+        responsavel,
         zona,
         local,
         tipo,
@@ -75,6 +76,7 @@ for row in rows:
     output.append({
         "id": record_id,
         "timestamp": timestamp,
+        "responsavel": responsavel,
         "zona": zona,
         "local": local,
         "tipo": tipo,
