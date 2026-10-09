@@ -428,5 +428,15 @@
     "tipo": "Agressão física",
     "gravidade": "Grave",
     "relato": "Ocorrência registrada: Agressão física — gravidade Grave."
+  },
+  {
+    "id": "33c4ab250641",
+    "timestamp": "09/10/2026 17:25:01",
+    "responsavel": "CAP NASCIMENTO",
+    "zona": "03",
+    "local": "Aquidabã",
+    "tipo": "Agressão física",
+    "gravidade": "Grave",
+    "relato": "Ocorrência registrada: Agressão física — gravidade Grave."
   }
 ]
