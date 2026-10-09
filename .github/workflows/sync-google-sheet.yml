@@ -24,12 +24,12 @@ jobs:
       - name: Sincronizar Google Sheets
         env:
           SHEET_GVIZ_URL: "https://docs.google.com/spreadsheets/d/1zMOKWqTekm9HLR_3oM9-cluo8BUJ7ODdWMHjFHsfrMo/gviz/tq?tqx=out:csv&gid=1037942495"
-        run: python scripts/sync_sheet.py
+        run: python roteiros/sync_sheet.py
 
       - name: Publicar atualizacao
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ocorrencias.json
+          git add dados/ocorrencias.json
           git diff --cached --quiet || git commit -m "Atualizar ocorrencias"
           git push
