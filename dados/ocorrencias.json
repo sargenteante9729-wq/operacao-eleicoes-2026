@@ -408,5 +408,15 @@
     "tipo": "Desobediência",
     "gravidade": "Moderada",
     "relato": "Ocorrência registrada: Desobediência — gravidade Moderada."
+  },
+  {
+    "id": "fe292634abef",
+    "timestamp": "08/10/2026 23:02:01",
+    "responsavel": "CAP NASCIMENTO",
+    "zona": "03",
+    "local": "Aquidabã",
+    "tipo": "Agressão física",
+    "gravidade": "Grave",
+    "relato": "Ocorrência registrada: Agressão física — gravidade Grave."
   }
 ]
