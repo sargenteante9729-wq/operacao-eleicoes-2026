@@ -438,5 +438,15 @@
     "tipo": "Agressão física",
     "gravidade": "Grave",
     "relato": "Ocorrência registrada: Agressão física — gravidade Grave."
+  },
+  {
+    "id": "a94464c993b0",
+    "timestamp": "09/10/2026 17:44:16",
+    "responsavel": "CAP NASCIMENTO",
+    "zona": "03",
+    "local": "Escola Municipal José Eunápio dos Santos",
+    "tipo": "Princípio de incêndio",
+    "gravidade": "Grave",
+    "relato": "Ocorrência registrada: Princípio de incêndio — gravidade Grave."
   }
 ]
