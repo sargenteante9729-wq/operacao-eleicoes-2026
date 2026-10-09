@@ -188,13 +188,10 @@ async function atualizarDados(manual=false){
   $('status').textContent=manual?'Atualização manual em andamento...':'Atualizando dados...';
   try{
     const antiga=new Set(DATA.map(x=>x.id));
-    const r=await loadData();
-    if(!r.ok)throw new Error('Arquivo de dados HTTP '+r.status);
-    const novos=await r.json();
+    const novos=await loadData();
     if(!Array.isArray(novos))throw new Error('Formato de dados inválido');
     DATA=novos; populateFilters(); render();
     const novosRegistros=DATA.filter(x=>!antiga.has(x.id)).length;
-    const meta=DATA._meta;
     $('last').textContent=new Date().toLocaleTimeString('pt-BR');
     $('status').textContent=manual?`✓ Atualizada • ${DATA.length} registros${novosRegistros?` • +${novosRegistros} novo(s)`:''}`:`✓ Conectada • ${DATA.length} registros${novosRegistros?` • +${novosRegistros} novo(s)`:''}`;
   }catch(e){
