@@ -26,10 +26,8 @@ with urllib.request.urlopen(request, timeout=30) as response:
 
 rows = list(csv.DictReader(io.StringIO(raw)))
 
-
 def clean(value):
     return (value or "").strip()
-
 
 def normalize_zone(value):
     return (
@@ -40,19 +38,22 @@ def normalize_zone(value):
         .zfill(2)
     )
 
-
 def public_summary(tipo, gravidade):
     return (
         f"Ocorrência registrada: {tipo or 'não informado'} — "
         f"gravidade {gravidade or 'não informada'}."
     )
 
-
 output = []
 
 for row in rows:
     timestamp = clean(row.get("Timestamp") or row.get("carimbo de data/hora"))
-    responsavel = clean(row.get("Responsável pelo Registro") or row.get("responsavel"))
+    responsavel = clean(
+        row.get("Responsável pelo Registro")
+        or row.get("responsavel")
+        or row.get("Responsável")
+        or row.get("responsável")
+    )
     zona = normalize_zone(row.get("Zona") or row.get("zona"))
     local = clean(row.get("Local") or row.get("local"))
     tipo = clean(row.get("Tipo") or row.get("tipo"))
@@ -84,16 +85,12 @@ for row in rows:
         "relato": public_summary(tipo, gravidade),
     })
 
-
 DEST.parent.mkdir(parents=True, exist_ok=True)
 
 DEST.write_text(
-    json.dumps(
-        output,
-        ensure_ascii=False,
-        indent=2
-    ),
+    json.dumps(output, ensure_ascii=False, indent=2),
     encoding="utf-8",
 )
 
 print(f"Sincronizados {len(output)} registros")
+print(f"Com responsável informado: {sum(1 for x in output if x['responsavel'])}")
