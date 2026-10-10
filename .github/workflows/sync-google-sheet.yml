@@ -1,19 +1,24 @@
-name: Sincronizar ocorrencias
+name: Sincronizar ocorrências
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    # Evita iniciar exatamente no começo da hora, quando o GitHub pode ter maior carga.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
 
 permissions:
   contents: write
 
-jobs:
-  sync:
-    runs-on: ubuntu-latest
+concurrency:
+  group: sincronizar-ocorrencias
+  cancel-in-progress: false
 
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Baixar repositorio
+      - name: Baixar repositório
         uses: actions/checkout@v4
 
       - name: Configurar Python
@@ -21,15 +26,19 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Sincronizar Google Sheets
+      - name: Sincronizar Planilha Google
         env:
           SHEET_GVIZ_URL: "https://docs.google.com/spreadsheets/d/1zMOKWqTekm9HLR_3oM9-cluo8BUJ7ODdWMHjFHsfrMo/gviz/tq?tqx=out:csv&gid=1037942495"
         run: python roteiros/sync_sheet.py
 
-      - name: Publicar atualizacao
+      - name: Publicar atualização
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dados/ocorrencias.json
-          git diff --cached --quiet || git commit -m "Atualizar ocorrencias"
+          if git diff --cached --quiet; then
+            echo "O JSON não mudou; nenhuma publicação necessária."
+            exit 0
+          fi
+          git commit -m "Atualizar ocorrências"
           git push
