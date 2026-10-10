@@ -468,5 +468,15 @@
     "tipo": "Princípio de incêndio",
     "gravidade": "Moderada",
     "relato": "Ocorrência registrada: Princípio de incêndio — gravidade Moderada."
+  },
+  {
+    "id": "79fbf7f3f724",
+    "timestamp": "09/10/2026 21:13:17",
+    "responsavel": "CAP NASCIMENTO",
+    "zona": "03",
+    "local": "Aquidabã",
+    "tipo": "Lesão corporal por arma branca",
+    "gravidade": "Fatal",
+    "relato": "Ocorrência registrada: Lesão corporal por arma branca — gravidade Fatal."
   }
 ]
