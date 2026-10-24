@@ -87,8 +87,8 @@ button.primary{background:var(--navy);color:#fff;border-color:var(--navy)} .stat
 .photo-gallery-controls select,.photo-gallery-controls input,.photo-gallery-controls button{font-size:11px;padding:8px;max-width:100%}
 .photo-admin{display:none;padding:12px;background:#e6f0fa;border-bottom:1px solid #cfdeed}
 .photo-admin.show{display:block}.photo-admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.photo-admin input,.photo-admin select{width:100%;min-width:0;padding:9px;border:1px solid #b8cce0;border-radius:7px;background:#fff;font-size:12px}.photo-admin .wide{grid-column:1/-1}.photo-admin-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.photo-admin-note{font-size:10px;color:#526a82;margin:7px 0 0;line-height:1.4}
-.photo-gallery-grid{padding:10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.photo-item{min-width:0;border:1px solid #d4e1ed;border-radius:9px;overflow:hidden;background:#fff;box-shadow:0 2px 5px #07376512}.photo-item img{display:block;width:100%;height:125px;object-fit:cover;background:#e3ebf3;cursor:pointer}.photo-item-info{padding:8px}.photo-item-info strong{display:block;font-size:10px;color:#173b5d;line-height:1.35}.photo-item-info span{display:block;font-size:9px;color:#657b90;margin-top:4px;line-height:1.4;overflow-wrap:anywhere}.photo-item-info button{margin-top:7px;padding:5px 7px;font-size:10px}.photo-gallery-empty{grid-column:1/-1;margin:0;padding:14px;text-align:center;font-size:11px;color:#657b90}.photo-gallery-status{font-size:10px;color:#dcecff}.photo-login{margin-left:auto}.photo-modal{position:fixed;inset:0;z-index:9999;background:#061a2ddd;display:none;align-items:center;justify-content:center;padding:18px}.photo-modal.open{display:flex}.photo-modal img{max-width:95vw;max-height:90vh;object-fit:contain;border-radius:8px;box-shadow:0 12px 40px #0008}.photo-modal button{position:absolute;top:14px;right:14px;font-size:18px}
-@media(max-width:650px){.photo-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-item img{height:105px}.photo-admin-grid{grid-template-columns:1fr}.photo-admin .wide{grid-column:auto}}
+.photo-gallery-grid{padding:12px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;background:#f4f8fc}.photo-zone-card{display:block;min-width:0;padding:0;text-align:left;border:1px solid #cbdbea;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 3px 10px #07376512;transition:transform .16s ease,box-shadow .16s ease}.photo-zone-card:hover{transform:translateY(-2px);box-shadow:0 8px 18px #07376520}.photo-zone-cover{height:135px;position:relative;display:grid;place-items:center;background:linear-gradient(135deg,#e1ebf5,#f7faff);overflow:hidden}.photo-zone-cover img{width:100%;height:100%;object-fit:cover}.photo-zone-placeholder{font-size:38px;color:#8ba7c2}.photo-zone-count{position:absolute;right:8px;bottom:8px;padding:5px 8px;border-radius:20px;background:#073765eF;color:#fff;font-size:10px;font-weight:700}.photo-zone-caption{padding:10px}.photo-zone-caption strong{display:block;font-size:12px;color:#12385d}.photo-zone-caption span{display:block;margin-top:5px;font-size:10px;color:#657b90;line-height:1.4}.photo-gallery-empty{grid-column:1/-1;margin:0;padding:14px;text-align:center;font-size:11px;color:#657b90}.photo-gallery-status{font-size:10px;color:#dcecff}.photo-login{margin-left:auto}.photo-zone-modal{position:fixed;inset:0;z-index:9998;background:#061a2de8;display:none;align-items:center;justify-content:center;padding:18px}.photo-zone-modal.open{display:flex}.photo-zone-dialog{width:min(1050px,96vw);max-height:92vh;display:flex;flex-direction:column;background:#f7faff;border-radius:14px;overflow:hidden;box-shadow:0 20px 60px #0005}.photo-zone-modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 17px;background:linear-gradient(120deg,#073765,#0b4e87);color:white}.photo-zone-modal-head strong{display:block;font-size:14px}.photo-zone-modal-head span{display:block;font-size:10px;color:#dcecff;margin-top:4px}.photo-zone-modal-head button{color:#fff;background:#ffffff20;border-color:#ffffff55;font-size:18px}.photo-zone-photos{padding:12px;overflow:auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.photo-item{min-width:0;border:1px solid #d4e1ed;border-radius:9px;overflow:hidden;background:#fff;box-shadow:0 2px 5px #07376512}.photo-item img{display:block;width:100%;height:130px;object-fit:cover;background:#e3ebf3;cursor:pointer}.photo-item-info{padding:8px}.photo-item-info strong{display:block;font-size:10px;color:#173b5d;line-height:1.35}.photo-item-info span{display:block;font-size:9px;color:#657b90;margin-top:4px;line-height:1.4;overflow-wrap:anywhere}.photo-item-info button{margin-top:7px;padding:5px 7px;font-size:10px}.photo-modal{position:fixed;inset:0;z-index:10000;background:#020a13f5;display:none;align-items:center;justify-content:center;padding:54px 70px 40px}.photo-modal.open{display:flex}.photo-modal-content{display:flex;flex-direction:column;align-items:center;gap:8px;max-width:100%;max-height:100%;min-width:0}.photo-modal img{display:block;max-width:calc(100vw - 150px);max-height:calc(100vh - 150px);object-fit:contain;border-radius:8px;box-shadow:0 12px 40px #0008}.photo-modal button{position:absolute;top:14px;right:14px;font-size:20px;color:#fff;background:#ffffff22;border-color:#ffffff55;z-index:2}.photo-modal .photo-modal-nav{top:50%;right:auto;transform:translateY(-50%);font-size:48px;line-height:1;width:48px;height:68px;padding:0;border-radius:10px;background:#ffffff20;border-color:#ffffff50}.photo-modal .photo-modal-nav.prev{left:14px}.photo-modal .photo-modal-nav.next{right:14px}.photo-modal-counter,.photo-modal-caption{color:#fff;font-size:12px;text-align:center;max-width:85vw;overflow-wrap:anywhere}.photo-modal-caption{font-size:11px;color:#d8e7f5}
+@media(max-width:800px){.photo-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-zone-cover{height:115px}.photo-zone-photos{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-item img{height:110px}.photo-admin-grid{grid-template-columns:1fr}.photo-admin .wide{grid-column:auto}.photo-modal{padding:50px 48px 35px}.photo-modal img{max-width:calc(100vw - 100px);max-height:calc(100vh - 130px)}.photo-modal .photo-modal-nav{width:38px;height:56px;font-size:38px}.photo-modal .photo-modal-nav.prev{left:5px}.photo-modal .photo-modal-nav.next{right:5px}}
 
 </style>
 </head>
@@ -127,8 +127,6 @@ button.primary{background:var(--navy);color:#fff;border-color:var(--navy)} .stat
           <button id="photoLoginToggle" class="photo-login">🔐 Acesso do administrador</button>
         </div>
         <div class="photo-gallery-controls">
-          <select id="photoZoneFilter" aria-label="Filtrar fotos por zona"><option value="TODAS">Todas as zonas</option><option value="03">Zona 03</option><option value="04">Zona 04</option><option value="08">Zona 08</option><option value="16">Zona 16</option><option value="34">Zona 34</option></select>
-          <input id="photoSearch" type="search" placeholder="Buscar local ou descrição" aria-label="Buscar fotos">
           <span id="photoGalleryStatus" class="sub">Conectando à galeria…</span>
         </div>
         <div id="photoAdminPanel" class="photo-admin">
@@ -179,7 +177,8 @@ button.primary{background:var(--navy);color:#fff;border-color:var(--navy)} .stat
     </aside>
   </div>
 </div>
-<div id="photoModal" class="photo-modal" role="dialog" aria-modal="true" aria-label="Visualização da foto"><button id="photoModalClose" aria-label="Fechar foto">✕</button><img id="photoModalImage" alt="Foto ampliada"></div>
+<div id="photoZoneModal" class="photo-zone-modal" role="dialog" aria-modal="true" aria-labelledby="photoZoneModalTitle"><div class="photo-zone-dialog"><div class="photo-zone-modal-head"><div><strong id="photoZoneModalTitle">FOTOS DA ZONA</strong><span id="photoZoneModalCount"></span></div><button id="photoZoneModalClose" aria-label="Fechar galeria da zona">✕</button></div><div id="photoZonePhotos" class="photo-zone-photos"></div></div></div>
+<div id="photoModal" class="photo-modal" role="dialog" aria-modal="true" aria-label="Visualização ampliada das fotos"><button id="photoModalClose" aria-label="Fechar foto">✕</button><button id="photoModalPrev" class="photo-modal-nav prev" aria-label="Foto anterior">‹</button><div class="photo-modal-content"><img id="photoModalImage" alt="Foto ampliada"><span id="photoModalCounter" class="photo-modal-counter"></span><div id="photoModalCaption" class="photo-modal-caption"></div></div><button id="photoModalNext" class="photo-modal-nav next" aria-label="Próxima foto">›</button></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
@@ -408,14 +407,42 @@ async function photoLoadGallery(){
  if(error){console.error('Galeria Supabase:',error);photoEl('photoGalleryGrid').innerHTML='<p class="photo-gallery-empty">A galeria ainda precisa da configuração SQL indicada nas instruções.</p>';photoStatus('Verifique a configuração do Supabase');return}
  photoRows=data||[];photoRenderGallery();photoStatus(photoRows.length+' foto(s) disponível(is)');
 }
+function photoPublicUrl(r){return supabaseClient.storage.from(PHOTO_BUCKET).getPublicUrl(r.storage_path).data.publicUrl}
 function photoRenderGallery(){
- const z=photoEl('photoZoneFilter').value, q=photoEl('photoSearch').value.trim().toLocaleLowerCase('pt-BR');
- const rows=photoRows.filter(r=>(z==='TODAS'||String(r.zona).padStart(2,'0')===z)&&(!q||[r.local_votacao,r.descricao,photoZoneName(r.zona)].join(' ').toLocaleLowerCase('pt-BR').includes(q)));
- if(!rows.length){photoEl('photoGalleryGrid').innerHTML='<p class="photo-gallery-empty">Nenhuma foto encontrada para esse filtro.</p>';return}
- photoEl('photoGalleryGrid').innerHTML=rows.map(r=>{const {data}=supabaseClient.storage.from(PHOTO_BUCKET).getPublicUrl(r.storage_path);return `<article class="photo-item"><img loading="lazy" src="${esc(data.publicUrl)}" alt="${esc(r.descricao||r.local_votacao||photoZoneName(r.zona))}" data-photo-url="${esc(data.publicUrl)}"><div class="photo-item-info"><strong>${esc(photoZoneName(r.zona))}</strong><span>${esc(r.local_votacao||'Local não informado')}</span>${r.descricao?`<span>${esc(r.descricao)}</span>`:''}<span>${r.created_at?new Date(r.created_at).toLocaleString('pt-BR'):''}</span>${photoSession?`<button type="button" data-photo-delete="${esc(r.id)}" data-photo-path="${esc(r.storage_path)}">Excluir foto</button>`:''}</div></article>`}).join('');
- photoEl('photoGalleryGrid').querySelectorAll('[data-photo-url]').forEach(img=>img.addEventListener('click',()=>{photoEl('photoModalImage').src=img.dataset.photoUrl;photoEl('photoModal').classList.add('open')}));
- photoEl('photoGalleryGrid').querySelectorAll('[data-photo-delete]').forEach(btn=>btn.addEventListener('click',()=>photoDelete(btn.dataset.photoDelete,btn.dataset.photoPath)));
+ const zones=['03','04','08','16','34'];
+ photoEl('photoGalleryGrid').innerHTML=zones.map(zone=>{
+  const rows=photoRows.filter(r=>String(r.zona).padStart(2,'0')===zone);
+  const cover=rows[0];
+  return `<button type="button" class="photo-zone-card" data-open-zone="${zone}" aria-label="Abrir fotos da Zona ${zone}"><div class="photo-zone-cover">${cover?`<img loading="lazy" src="${esc(photoPublicUrl(cover))}" alt="">`:'<span class="photo-zone-placeholder">▧</span>'}<span class="photo-zone-count">${rows.length} foto(s)</span></div><div class="photo-zone-caption"><strong>ZONA ${zone}</strong><span>${rows.length?'Clique para ver todas as fotos':'Ainda sem fotos cadastradas'}</span></div></button>`;
+ }).join('');
+ photoEl('photoGalleryGrid').querySelectorAll('[data-open-zone]').forEach(btn=>btn.addEventListener('click',()=>photoOpenZone(btn.dataset.openZone)));
 }
+let photoCurrentZoneRows=[],photoCurrentIndex=0;
+function photoOpenZone(zone){
+ const rows=photoRows.filter(r=>String(r.zona).padStart(2,'0')===String(zone).padStart(2,'0'));
+ photoEl('photoZoneModalTitle').textContent='FOTOS — ZONA '+zone;
+ photoEl('photoZoneModalCount').textContent=rows.length+' foto(s)';
+ photoEl('photoZonePhotos').innerHTML=rows.length?rows.map(r=>`<article class="photo-item"><img loading="lazy" src="${esc(photoPublicUrl(r))}" alt="${esc(r.descricao||r.local_votacao||photoZoneName(r.zona))}" data-photo-open="${esc(r.id)}"><div class="photo-item-info"><strong>${esc(photoZoneName(r.zona))}</strong><span>${esc(r.local_votacao||'Local não informado')}</span>${r.descricao?`<span>${esc(r.descricao)}</span>`:''}${photoSession?`<button type="button" data-photo-delete="${esc(r.id)}" data-photo-path="${esc(r.storage_path)}">Excluir foto</button>`:''}</div></article>`).join(''):'<p class="photo-gallery-empty">Esta zona ainda não possui fotos.</p>';
+ photoEl('photoZoneModal').classList.add('open');
+ photoEl('photoZonePhotos').querySelectorAll('[data-photo-open]').forEach(img=>img.addEventListener('click',()=>photoOpenLightbox(img.dataset.photoOpen)));
+ photoEl('photoZonePhotos').querySelectorAll('[data-photo-delete]').forEach(btn=>btn.addEventListener('click',()=>photoDelete(btn.dataset.photoDelete,btn.dataset.photoPath)));
+}
+function photoOpenLightbox(id){
+ const zoneRows=photoRows.filter(r=>String(r.zona).padStart(2,'0')===String(photoRows.find(x=>String(x.id)===String(id))?.zona||'').padStart(2,'0'));
+ photoCurrentZoneRows=zoneRows;photoCurrentIndex=zoneRows.findIndex(r=>String(r.id)===String(id));
+ if(photoCurrentIndex<0)return;
+ photoShowCurrentPhoto();photoEl('photoModal').classList.add('open');
+}
+function photoShowCurrentPhoto(){
+ const r=photoCurrentZoneRows[photoCurrentIndex];if(!r)return;
+ photoEl('photoModalImage').src=photoPublicUrl(r);
+ photoEl('photoModalImage').alt=r.descricao||r.local_votacao||photoZoneName(r.zona);
+ photoEl('photoModalCounter').textContent=(photoCurrentIndex+1)+' de '+photoCurrentZoneRows.length+' fotos';
+ photoEl('photoModalCaption').textContent=[photoZoneName(r.zona),r.local_votacao||'Local não informado',r.descricao||''].filter(Boolean).join(' • ');
+ const many=photoCurrentZoneRows.length>1;
+ photoEl('photoModalPrev').style.display=many?'block':'none';photoEl('photoModalNext').style.display=many?'block':'none';
+}
+function photoMoveLightbox(step){if(!photoCurrentZoneRows.length)return;photoCurrentIndex=(photoCurrentIndex+step+photoCurrentZoneRows.length)%photoCurrentZoneRows.length;photoShowCurrentPhoto()}
 async function photoLogin(){
  const email=photoEl('photoEmail').value.trim(),password=photoEl('photoPassword').value;
  if(!email||!password){photoStatus('Informe e-mail e senha');return}
@@ -457,9 +484,13 @@ async function photoDelete(id,path){
 photoEl('photoLoginToggle').addEventListener('click',()=>{photoEl('photoAdminPanel').classList.toggle('show');photoSetAdminUI()});
 photoEl('photoCancelLogin').addEventListener('click',()=>photoEl('photoAdminPanel').classList.remove('show'));
 photoEl('photoLoginBtn').addEventListener('click',photoLogin);photoEl('photoLogoutBtn').addEventListener('click',photoLogout);photoEl('photoUploadBtn').addEventListener('click',photoUpload);
-photoEl('photoZoneFilter').addEventListener('change',photoRenderGallery);photoEl('photoSearch').addEventListener('input',photoRenderGallery);
+photoEl('photoZoneModalClose').addEventListener('click',()=>photoEl('photoZoneModal').classList.remove('open'));
+photoEl('photoZoneModal').addEventListener('click',e=>{if(e.target===photoEl('photoZoneModal'))photoEl('photoZoneModal').classList.remove('open')});
 photoEl('photoModalClose').addEventListener('click',()=>photoEl('photoModal').classList.remove('open'));
+photoEl('photoModalPrev').addEventListener('click',()=>photoMoveLightbox(-1));
+photoEl('photoModalNext').addEventListener('click',()=>photoMoveLightbox(1));
 photoEl('photoModal').addEventListener('click',e=>{if(e.target===photoEl('photoModal'))photoEl('photoModal').classList.remove('open')});
+document.addEventListener('keydown',e=>{if(!photoEl('photoModal').classList.contains('open'))return;if(e.key==='ArrowRight')photoMoveLightbox(1);if(e.key==='ArrowLeft')photoMoveLightbox(-1);if(e.key==='Escape')photoEl('photoModal').classList.remove('open')});
 if(supabaseClient){photoRefreshSession().then(photoLoadGallery);supabaseClient.auth.onAuthStateChange((_event,session)=>{photoSession=session;photoSetAdminUI();photoRenderGallery()})}
 
 document.querySelectorAll('[data-zone]').forEach(b=>b.addEventListener('click',()=>chooseZone(b.dataset.zone)));
