@@ -449,7 +449,7 @@ async function photoLogin(){
  if(!email||!password){photoStatus('Informe e-mail e senha');return}
  photoStatus('Autenticando…');const {data,error}=await supabaseClient.auth.signInWithPassword({email,password});
  if(error){photoStatus('Falha no login: '+error.message);return}
- photoSession=data.session;
+ console.log('Sessão:', photoSession, 'Usuário:', photoSession?.user?.id);
  photoEl('photoPassword').value='';
  photoSetAdminUI();
  photoRenderGallery();
