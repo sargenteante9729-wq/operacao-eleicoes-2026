@@ -518,5 +518,25 @@
     "tipo": "APH",
     "gravidade": "Baixa",
     "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "494b8d97cae0",
+    "timestamp": "15/11/2026 08:29:05",
+    "responsavel": "SUB TEN MAURICIO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "723c3c863849",
+    "timestamp": "15/11/2026 08:30:37",
+    "responsavel": "SUB TEN MAURICIO",
+    "zona": "00",
+    "local": "",
+    "tipo": "Acidente Veicular",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: Acidente Veicular — gravidade Baixa."
   }
 ]
