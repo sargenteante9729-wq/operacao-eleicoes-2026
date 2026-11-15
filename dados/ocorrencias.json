@@ -520,8 +520,8 @@
     "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "494b8d97cae0",
-    "timestamp": "15/11/2026 08:29:05",
+    "id": "855933aba9f4",
+    "timestamp": "15/11/2026 03:29:05",
     "responsavel": "SUB TEN MAURICIO",
     "zona": "00",
     "local": "",
@@ -530,13 +530,73 @@
     "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "723c3c863849",
-    "timestamp": "15/11/2026 08:30:37",
+    "id": "b9b168a6ce9d",
+    "timestamp": "15/11/2026 03:30:37",
     "responsavel": "SUB TEN MAURICIO",
     "zona": "00",
     "local": "",
     "tipo": "Acidente Veicular",
     "gravidade": "Baixa",
     "relato": "Ocorrência registrada: Acidente Veicular — gravidade Baixa."
+  },
+  {
+    "id": "ba8f6669f2db",
+    "timestamp": "15/11/2026 14:10:48",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "14c25d5c8401",
+    "timestamp": "15/11/2026 14:17:56",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "e585efd165fd",
+    "timestamp": "15/11/2026 14:25:38",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "caacb60e0803",
+    "timestamp": "15/11/2026 15:56:16",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "8c98f25c9a85",
+    "timestamp": "15/11/2026 16:47:03",
+    "responsavel": "SUB TEN VALTER",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "71ce6d595808",
+    "timestamp": "15/11/2026 16:59:22",
+    "responsavel": "1º TEN ACRUX",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
   }
 ]
