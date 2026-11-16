@@ -610,14 +610,14 @@
     "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
-    "id": "9a2c05e86626",
+    "id": "f0477138c1cc",
     "timestamp": "15/11/2026 17:50:31",
     "responsavel": "1º TEN BRUNO",
     "zona": "00",
     "local": "",
-    "tipo": "Outro",
+    "tipo": "APH",
     "gravidade": "Baixa",
-    "relato": "Ocorrência registrada: Outro — gravidade Baixa."
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
   },
   {
     "id": "8c35900f9843",
@@ -748,5 +748,315 @@
     "tipo": "APH",
     "gravidade": "Moderada",
     "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "725b76f34e8e",
+    "timestamp": "15/11/2026 21:08:50",
+    "responsavel": "2º SGT LEAO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "219108fc7f00",
+    "timestamp": "15/11/2026 21:10:30",
+    "responsavel": "2º SGT LEAO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "67464708f336",
+    "timestamp": "15/11/2026 21:12:19",
+    "responsavel": "2º SGT LEAO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "2b2284e83c75",
+    "timestamp": "15/11/2026 21:22:29",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "e39acbcd114d",
+    "timestamp": "15/11/2026 21:23:32",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "37c45cf1a1ca",
+    "timestamp": "15/11/2026 21:29:22",
+    "responsavel": "SD SEVERINO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "fb41d9b0d8f4",
+    "timestamp": "15/11/2026 21:40:09",
+    "responsavel": "SD GLEDSON JUNIOR",
+    "zona": "00",
+    "local": "",
+    "tipo": "Outras",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: Outras — gravidade Moderada."
+  },
+  {
+    "id": "13a6c31ca216",
+    "timestamp": "15/11/2026 21:59:24",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "6c84f9937dc7",
+    "timestamp": "15/11/2026 22:01:06",
+    "responsavel": "2º TEN MONTEIRO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "332c6d53161d",
+    "timestamp": "15/11/2026 22:13:16",
+    "responsavel": "SUB TEN VALTER",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "5477dcb7f71b",
+    "timestamp": "15/11/2026 22:46:11",
+    "responsavel": "2º TEN CAROLINE",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "9f680affabe2",
+    "timestamp": "15/11/2026 22:46:45",
+    "responsavel": "1º TEN BRUNO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "070deb18d14e",
+    "timestamp": "15/11/2026 22:47:17",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "bab663883b7a",
+    "timestamp": "15/11/2026 22:51:40",
+    "responsavel": "SD KELLY",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "7409cd06a0a3",
+    "timestamp": "15/11/2026 22:55:26",
+    "responsavel": "SD KELLY",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "0814eaeeef1d",
+    "timestamp": "15/11/2026 23:02:46",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "da3378a12efd",
+    "timestamp": "15/11/2026 23:09:13",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "5d631b19a009",
+    "timestamp": "15/11/2026 23:11:00",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "97349a5d2fe2",
+    "timestamp": "15/11/2026 23:17:44",
+    "responsavel": "3º SGT VILLANOVA",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "7df46437e6f4",
+    "timestamp": "15/11/2026 23:18:10",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "a8116d71c9d7",
+    "timestamp": "15/11/2026 23:19:38",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "32e8283b6e0b",
+    "timestamp": "15/11/2026 23:19:47",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "c419ec8059bb",
+    "timestamp": "15/11/2026 23:21:34",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "6d6d0c19e934",
+    "timestamp": "15/11/2026 23:30:49",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "6122d4dd4410",
+    "timestamp": "15/11/2026 23:45:32",
+    "responsavel": "SUB TEN MAURICIO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "0adc1f12d7f8",
+    "timestamp": "15/11/2026 23:46:32",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "50e9157e58e2",
+    "timestamp": "15/11/2026 23:49:27",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "ea0bff53b29f",
+    "timestamp": "15/11/2026 23:49:35",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "bcd300639935",
+    "timestamp": "15/11/2026 23:51:38",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Moderada",
+    "relato": "Ocorrência registrada: APH — gravidade Moderada."
+  },
+  {
+    "id": "5cb9acc2b707",
+    "timestamp": "15/11/2026 23:53:34",
+    "responsavel": "SUB TEN GILVANDO",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Baixa",
+    "relato": "Ocorrência registrada: APH — gravidade Baixa."
+  },
+  {
+    "id": "78a3350fc954",
+    "timestamp": "15/11/2026 23:54:05",
+    "responsavel": "",
+    "zona": "00",
+    "local": "",
+    "tipo": "APH",
+    "gravidade": "Grave",
+    "relato": "Ocorrência registrada: APH — gravidade Grave."
   }
 ]
